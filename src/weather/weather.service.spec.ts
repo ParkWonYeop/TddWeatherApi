@@ -1,7 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { WeatherService } from './weather.service';
-import { Repository, SelectQueryBuilder } from 'typeorm';
-import { LocalEntity } from '../entities/local.entity';
+import { Repository } from 'typeorm';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { WeatherEntity } from '../entities/weather.entity';
 import { SelectWeatherDto, SelectAllWeatherDto } from './dto/weather.dto';
